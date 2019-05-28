@@ -8,8 +8,8 @@ import wxml_to_html from './wxml_utils'; // wxml 转 html
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
+  // mode: 'base',
+  // base: process.env.BASE_URL,
   routes: [
     {
       path: '/',

@@ -104,7 +104,7 @@ export default {
                 if (unit == 'px') {
                     target = target.replace(result[i],parseFloat((result[i]))*scale+unit)
                 } else if(unit == 'rem') {
-                    target = target.replace(result[i],parseFloat((result[i]))/scale+unit)
+                    target = target.replace(result[i],Math.round(parseFloat(result[i])/scale*100)/100+unit)
                 }
             }
             return target; 
