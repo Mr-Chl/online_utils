@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.720b57d878ee9bf0dcae53917b71a753.js"
+  "/precache-manifest.52ba3b2c576d5abb75a991da7210f400.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "github_uitls_vue3.x"});
